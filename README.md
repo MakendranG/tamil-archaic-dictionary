@@ -2,8 +2,8 @@
 
 > A single-purpose web application that solves the problem of understanding complex Tamil literary and archaic words by providing simple modern Tamil meanings and English equivalents.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://yourusername.github.io/tamil-archaic-dictionary)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+<img width="938" height="817" alt="image" src="https://github.com/user-attachments/assets/140e1c5c-7b52-4a18-9f4a-c2f47877dc26" />
+
 
 ## 🎯 Problem Statement
 
@@ -55,9 +55,11 @@ A clean, intuitive web application that:
 
 ### Local Development
 
-1. **Clone the repository**
+1. **Download or Clone**
 ```bash
-git clone https://github.com/MakendranG/tamil-archaic-dictionary.git
+# Download ZIP from GitHub and extract
+# OR clone the repository:
+git clone https://github.com/yourusername/tamil-archaic-dictionary.git
 cd tamil-archaic-dictionary
 ```
 
@@ -69,23 +71,14 @@ python -m http.server 8000
 # Then visit: http://localhost:8000
 ```
 
-### Deployment Options
+### GitHub Pages Deployment
 
-#### Option 1: GitHub Pages
-1. Go to repository Settings → Pages
-2. Select main branch as source
-3. Your site will be live at: `https://MakendranG.github.io/tamil-archaic-dictionary`
-
-#### Option 2: Netlify
-1. Connect your GitHub repository to Netlify
-2. Deploy with default settings
-3. Site goes live automatically
-
-#### Option 3: AWS S3 Static Hosting
-1. Create an S3 bucket
-2. Enable static website hosting
-3. Upload all files
-4. Set bucket policy for public access
+1. Upload all files to your GitHub repository
+2. Go to repository **Settings** → **Pages**
+3. Under "Source", select **main** branch
+4. Click **Save**
+5. Your site will be live at: `https://yourusername.github.io/tamil-archaic-dictionary`
+6. Wait 2-3 minutes for deployment
 
 ## 📖 Usage Guide
 
@@ -104,17 +97,6 @@ python -m http.server 8000
 - Toggle "Search online if not found locally" to enable/disable
 - When enabled, searches external APIs automatically
 - Shows source badge indicating where the result came from
-
-## 🎨 Screenshots
-
-### Main Interface
-![Main Interface](screenshots/main-interface.png)
-
-### Tamil Keyboard
-![Tamil Keyboard](screenshots/tamil-keyboard.png)
-
-### Search Results
-![Search Results](screenshots/search-results.png)
 
 ## 🤖 Built with Kiro AI
 
@@ -169,6 +151,7 @@ Contributions are welcome! Here's how you can help:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
 
 
 
