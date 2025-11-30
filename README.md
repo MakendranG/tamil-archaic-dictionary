@@ -59,7 +59,7 @@ A clean, intuitive web application that:
 ```bash
 # Download ZIP from GitHub and extract
 # OR clone the repository:
-git clone https://github.com/yourusername/tamil-archaic-dictionary.git
+git clone https://github.com/MakendranG/tamil-archaic-dictionary.git
 cd tamil-archaic-dictionary
 ```
 
